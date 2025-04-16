@@ -26,6 +26,11 @@ int main() {
      tabuleiro[4][1] = 3;
      tabuleiro[5][2] = 3;
 
+     // Insere navio Diagonal de 3 posições na linha 4, coluna A, linha 5, coluna B, linha 6, coluna C
+     tabuleiro[7][6] = 3;
+     tabuleiro[6][7] = 3;
+     tabuleiro[5][8] = 3;
+
     // Imprime o cabeçalho com letras
     printf("   "); // espaço inicial para alinhar com os números
     for (int k = 0; k < 10; k++) {
