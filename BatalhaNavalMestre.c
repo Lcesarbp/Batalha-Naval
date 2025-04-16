@@ -11,25 +11,7 @@ int main() {
         }
     }
 
-     // Insere navio horizontal de 3 posições na linha 2, colunas C, D, E
-     tabuleiro[1][2] = 3;
-     tabuleiro[1][3] = 3;
-     tabuleiro[1][4] = 3;
- 
-     // Insere navio horizontal de 3 posições na linha 10, coluna A, B, C
-     tabuleiro[9][0] = 3;
-     tabuleiro[9][1] = 3;
-     tabuleiro[9][2] = 3;
-
-     // Insere navio Diagonal de 3 posições na linha 4, coluna A, linha 5, coluna B, linha 6, coluna C
-     tabuleiro[3][0] = 3;
-     tabuleiro[4][1] = 3;
-     tabuleiro[5][2] = 3;
-
-     // Insere navio Diagonal de 3 posições na linha 8, coluna G, linha 7, coluna H, linha 6, coluna I
-     tabuleiro[7][6] = 3;
-     tabuleiro[6][7] = 3;
-     tabuleiro[5][8] = 3;
+     
 
     // Imprime o cabeçalho com letras
     printf("   "); // espaço inicial para alinhar com os números
