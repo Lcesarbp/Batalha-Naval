@@ -11,6 +11,17 @@ int main() {
         }
     }
 
+     // Insere navio horizontal de 3 posições na linha 2, colunas C, D, E
+     tabuleiro[1][4] = 3;
+     tabuleiro[2][3] = 3;
+     tabuleiro[2][4] = 3;
+     tabuleiro[2][5] = 3;
+     tabuleiro[3][2] = 3;
+     tabuleiro[3][3] = 3;
+     tabuleiro[3][4] = 3;
+     tabuleiro[3][5] = 3;
+     tabuleiro[3][6] = 3;
+
      
 
     // Imprime o cabeçalho com letras
