@@ -41,20 +41,17 @@ int main() {
                 }
                 
             }
-            
-            
-        
-           
-           
-           
-           
-            
-     
-     
-     
+             
      
         }
     }
+    //Inicio da Cruz...
+
+    
+
+
+
+
 
     // Imprime o tabuleiro
     printf("   A B C D E F G H I J\n");
