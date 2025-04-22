@@ -4,9 +4,9 @@ int main() {
     
     int tabuleiro[10][10]; //variavel do tabuleiro de batalha naval
 
-    // Ponto de Inicialização do tabuleiro com 0
+    
 
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 10; i++) { // Ponto de Inicialização do tabuleiro com 0
         for (int j = 0; j < 10; j++) {
             tabuleiro[i][j] = 0;
         }
