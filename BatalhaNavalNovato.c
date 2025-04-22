@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    char *letras[10] = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J"};
-    int tabuleiro[10][10];
+    
+    int tabuleiro[10][10]; //variavel do tabuleiro de batalha naval
 
-    // Inicializa todos os elementos com 0
+    // Ponto de Inicialização do tabuleiro com 0
+
     for (int i = 0; i < 10; i++) {
         for (int j = 0; j < 10; j++) {
             tabuleiro[i][j] = 0;
@@ -21,21 +22,21 @@ int main() {
      tabuleiro[5][5] = 3;
      tabuleiro[6][5] = 3;
 
-    // Imprime o cabeçalho com letras
-    printf("   "); // espaço inicial para alinhar com os números
-    for (int k = 0; k < 10; k++) {
-        printf(" %s", letras[k]);
-    }
-    printf("\n");
 
-    // Imprime o tabuleiro com números na lateral
-    for (int i = 0; i < 10; i++) {
-        printf("%2d ", i + 1); // numeração da linha
-        for (int j = 0; j < 10; j++) {
-            printf(" %d", tabuleiro[i][j]);
-        }
-        printf("\n");
-    }
+     // Imprime o tabuleiro no formato de numeração para cada linha e uma letra para cada coluna padrão batalha naval
+
+     printf("   A B C D E F G H I J\n"); // Impressão das letras das colunas
+     for (int i = 0; i < 10; i++) {
+ 
+         printf("%2d ", i + 1); // impressão dos números das linhas 
+ 
+         for (int j = 0; j < 10; j++) {
+ 
+             printf("%d ", tabuleiro[i][j]); // impressão do tabuleiro de batalha naval
+         }
+ 
+         printf("\n");// Padrão de espaços entre os elementos
+     }
 
     return 0;
 }
